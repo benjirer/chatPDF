@@ -36,6 +36,6 @@ os.environ["OPENAI_API_KEY"] = "YOUR-OPEN-AI-API-KEY"
 ```
 - run the code and ask questions
 ```
-> streamit run chat.py 
+> streamlit run chat.py 
 ```
 
