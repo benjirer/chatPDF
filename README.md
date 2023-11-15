@@ -2,16 +2,16 @@
 Light weight Streamlit ChatBot for PDF query based on https://github.com/thoqbk/pdf-query.
 
 ## Solution
-Uses LangChain and OpenAI to make your PDFs queryable.
-- Split the file into smaller chunks that are smaller than the token limitation.
-- Utilize vector databases such as `FAISS` or `Chroma` to store these chunks.
-- Use LLM to search for related chunks in the database for each data retrieval request and summarize the information to obtain the final result.
-- Frontend built with Streamlit
+Uses LangChain and OpenAI to make your PDFs queryable:
+- Splits the file into smaller chunks that are smaller than the token limitation.
+- Utilizes vector databases such as `FAISS` or `Chroma` to store these chunks.
+- Uses an LLM to search for related chunks in the database for each data retrieval request and summarizes the information to obtain the final result.
+- Uses Streamlit to provide a simple frontend.
 
 <img src='example_gui.png' width='400'>
 
 
-Refer to `chat.py` the details
+Refer to `chat.py` for the details.
 
 ## Run
 Prerequisites:
@@ -25,9 +25,9 @@ source .env/bin/activate
 pip install -r /path/to/requirements.txt
 ```
 Note that,
-- the first command is only needed to run once to create `.env` folder in the root directory for the same code
-- the second command is to activate the virtual env, need to run at the beginning of the test session
-- the last command is to install dependencies, need to run once unless there're changes in dependencies
+- the first command is only needed to run once to create the `.env` folder in the root directory for the same code.
+- the second command is to activate the virtual env, needs to run at the beginning of the test session.
+- the last command is to install dependencies, needs to run only once unless there're changes in dependencies.
 
 Next steps:
 - update `chat.py` to add your open-ai API key
