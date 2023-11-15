@@ -1,5 +1,5 @@
 # chatPDF
-Light Weight Streamlit ChatBot for PDF Query based on https://github.com/thoqbk/pdf-query.
+Light weight Streamlit ChatBot for PDF query based on https://github.com/thoqbk/pdf-query.
 
 ## Solution
 Uses LangChain and OpenAI to make your PDFs queryable.
