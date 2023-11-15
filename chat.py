@@ -150,7 +150,7 @@ if pdf_file:
         input_text = st.chat_input("Ask something")
         return input_text
 
-    os.environ["OPENAI_API_KEY"] = "YOUR-OPEN-AI-API-KEY"  # Set your OpenAI API key
+    os.environ["OPENAI_API_KEY"] = ""  # Set your OpenAI API key
 
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
         tmp_file.write(pdf_file.getvalue())

@@ -8,6 +8,9 @@ Uses LangChain and OpenAI to make your PDFs queryable.
 - Use LLM to search for related chunks in the database for each data retrieval request and summarize the information to obtain the final result.
 - Frontend built with Streamlit
 
+<img src='example_gui.png' width='400'>
+
+
 Refer to `chat.py` the details
 
 ## Run
